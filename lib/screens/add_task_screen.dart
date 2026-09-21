@@ -300,8 +300,8 @@ class _AddTaskSheetState extends State<AddTaskSheet> {
           ),
           padding: const EdgeInsets.symmetric(horizontal: 8),
           child: quill.QuillEditor.basic(
-            configurations: quill.QuillEditorConfigurations(
-              controller: _quillController,
+            controller: _quillController,
+            config: quill.QuillEditorConfig(
               padding: EdgeInsets.zero,
               autoFocus: false,
               placeholder: 'Add notes…',

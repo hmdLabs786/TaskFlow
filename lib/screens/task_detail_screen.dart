@@ -277,8 +277,8 @@ class _TaskDetailScreenState extends State<TaskDetailScreen> {
         ),
         padding: const EdgeInsets.all(12),
         child: quill.QuillEditor.basic(
-          configurations: quill.QuillEditorConfigurations(
-            controller: controller,
+          controller: controller,
+          config: quill.QuillEditorConfig(
             padding: EdgeInsets.zero,
             autoFocus: false,
             enableInteractiveSelection: false,

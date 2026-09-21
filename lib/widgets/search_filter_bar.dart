@@ -11,7 +11,6 @@ class SearchFilterBar extends StatelessWidget {
 
     return Column(
       children: [
-        // Search Bar
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
           child: TextField(
@@ -30,7 +29,6 @@ class SearchFilterBar extends StatelessWidget {
           ),
         ),
 
-        // Sort & Filter Options
         SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           padding: const EdgeInsets.symmetric(horizontal: 16.0),

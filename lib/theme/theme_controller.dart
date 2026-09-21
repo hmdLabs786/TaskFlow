@@ -52,7 +52,7 @@ class ThemeController extends ChangeNotifier {
         ),
         iconTheme: IconThemeData(color: Color(0xFF5F6368)),
       ),
-      cardTheme: const CardTheme(
+      cardTheme: CardThemeData(
         elevation: 0,
         color: surface,
         margin: EdgeInsets.zero,
@@ -132,11 +132,11 @@ class ThemeController extends ChangeNotifier {
         ),
         iconTheme: IconThemeData(color: Color(0xFF9AA0A6)),
       ),
-      cardTheme: const CardTheme(
+      cardTheme: const CardThemeData(
         elevation: 0,
         color: surface,
         margin: EdgeInsets.zero,
-        shape: const RoundedRectangleBorder(),
+        shape: RoundedRectangleBorder(),
       ),
       inputDecorationTheme: InputDecorationTheme(
         filled: true,
